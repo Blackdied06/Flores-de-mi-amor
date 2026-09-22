@@ -11,11 +11,6 @@ window.addEventListener('focus', () => {
 
 let h1 = document.getElementById("Titulo");
 let Boton1 = document.getElementById("B1");
-const musicaFlores = document.getElementById("musicaFlores");
-
-document.getElementById("BVer").addEventListener("click", function() {
-  musicaFlores.play().catch(() => {});
-});
 
 Boton1.addEventListener('click', function() {
     const ContenedorBotones = document.querySelector(".Con");
